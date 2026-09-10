@@ -1,0 +1,16 @@
+{
+  "name": "juice-shop-audit",
+  "version": "1.0.0",
+  "description": "Examen Securite des Donnees L3",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.16.0",
+    "jsonwebtoken": "8.5.1",
+    "sequelize": "5.21.7",
+    "sqlite3": "4.1.1",
+    "sanitize-html": "1.20.0"
+  },
+  "scripts": {
+    "audit": "npm audit"
+  }
+}
