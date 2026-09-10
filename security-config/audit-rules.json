@@ -1,0 +1,12 @@
+{
+  "scaConfiguration": {
+    "tool": "npm-audit",
+    "failOnSeverity": "high",
+    "allowedLicenses": ["MIT", "Apache-2.0", "BSD-3-Clause"]
+  },
+  "pipelineThresholds": {
+    "criticalVulnerabilitiesAllowed": 0,
+    "highVulnerabilitiesAllowed": 0,
+    "mediumVulnerabilitiesAllowed": 5
+  }
+}
