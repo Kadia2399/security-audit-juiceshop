@@ -1,0 +1,20 @@
+{
+  "auditReportVersion": 2,
+  "scanType": "SCA - Software Composition Analysis",
+  "tool": "npm audit",
+  "project": "security-audit-juiceshop",
+  "metadata": {
+    "totalDependenciesAudited": 224,
+    "vulnerabilities": {
+      "critical": 4,
+      "high": 10,
+      "moderate": 2,
+      "low": 3,
+      "total": 19
+    }
+  },
+  "summary": {
+    "status": "VULNERABILITIES_DETECTED",
+    "recommendation": "Reject deployment - 14 vulnerabilities (Critical/High) require immediate patching"
+  }
+}
